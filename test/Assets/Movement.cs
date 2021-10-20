@@ -5,8 +5,11 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 
 {
-    Rigidbody2D rb;
-    public float velocita = 200;
+    public Rigidbody2D rb;
+    public float velocita = 5f;
+    public Animator animator;
+
+    Vector2 movimento;
 
     void Start()
     {
@@ -15,9 +18,16 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        float movimentox = Input.GetAxisRaw("Horizontal") * velocita * Time.deltaTime;
-        float movimentoy = Input.GetAxisRaw("Vertical") * velocita * Time.deltaTime;
+        movimento.x = Input.GetAxisRaw("Horizontal");
+        movimento.y = Input.GetAxisRaw("Vertical");
 
-        rb.velocity = new Vector2(movimentox, movimentoy);
+        animator.SetFloat("Horizontal", movimento.x);
+        animator.SetFloat("Vertical", movimento.y);
+        animator.SetFloat("Speed", movimento.sqrMagnitude);
+    }
+
+    void FixedUpdate()
+    {
+        rb.MovePosition(rb.position + movimento * velocita * Time.fixedDeltaTime);
     }
 }
