@@ -5,6 +5,7 @@ using UnityEngine;
 public class Movement : MonoBehaviour
 
 {
+    public MovementJoystick movementJoystick;
     public Rigidbody2D rb;
     public float velocita = 5f;
     public Animator animator;
@@ -18,8 +19,8 @@ public class Movement : MonoBehaviour
 
     void Update()
     {
-        movimento.x = Input.GetAxisRaw("Horizontal");
-        movimento.y = Input.GetAxisRaw("Vertical");
+        movimento.x = movementJoystick.joystickVec.x;
+        movimento.y = movementJoystick.joystickVec.y;
 
         animator.SetFloat("Horizontal", movimento.x);
         animator.SetFloat("Vertical", movimento.y);
@@ -27,7 +28,15 @@ public class Movement : MonoBehaviour
     }
 
     void FixedUpdate()
-    {
-        rb.MovePosition(rb.position + movimento * velocita * Time.fixedDeltaTime);
+    { 
+        if(movementJoystick.joystickVec.y != 0)
+        {
+            rb.velocity = new Vector2(movementJoystick.joystickVec.x * velocita, movementJoystick.joystickVec.y * velocita);
+        }
+        else
+        {
+            rb.velocity = Vector2.zero;
+        }
+        //rb.MovePosition(rb.position + movimento * velocita * Time.fixedDeltaTime);
     }
 }
