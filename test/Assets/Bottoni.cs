@@ -56,8 +56,7 @@ public class Bottoni : MonoBehaviour
             }
 
             else {
-
-                Media.SetTesto(cont);
+                // Media.SetTesto(cont);
                 SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
 
             }
