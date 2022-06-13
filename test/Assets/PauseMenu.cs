@@ -13,14 +13,13 @@ public class PauseMenu : MonoBehaviour
 
     public void PauseButton()
     {
-         if (GameIsPaused)
-         {
-            Resume();
-         }
-            else
-         {
-            Pause();
-         }
+            if(GameIsPaused) {
+                Resume();
+            }
+            else {
+                Pause();
+            }
+
     }
 
     public void Resume()

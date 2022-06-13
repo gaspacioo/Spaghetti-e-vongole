@@ -6,12 +6,13 @@ using UnityEngine.UI;
 
 public class SheldonScript : MonoBehaviour
 {
-    private string[] v = { "Sasso", "Carta", "Forbici", "Lizard", "Shpock"};
+    private string[] v = { "Sasso", "Carta", "Forbici", "Lizard", "Spock"};
     public GameObject[] buttons;
     public GameObject alert;
     int cont = 30;
-    CalcoloMedia media = new CalcoloMedia();
+    float media = 0; // da aggiustare
 
+   
     public void vai()
     {
         string a = this.name;
@@ -26,7 +27,7 @@ public class SheldonScript : MonoBehaviour
 
         else if (a.Equals(v[i]))
         {
-            media.setValore(cont, 2);
+            media = (media + cont) / 2;
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         }
         else cont--;

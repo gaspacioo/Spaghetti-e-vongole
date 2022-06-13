@@ -11,7 +11,7 @@ public class CalcoloMedia : MonoBehaviour
     
     public float getValore()
     {
-        float a= float.Parse(this.text.text); ;
+        float a= float.Parse(this.text.text); 
 
         return a; 
        

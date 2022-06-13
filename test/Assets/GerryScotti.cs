@@ -7,12 +7,17 @@ public class GerryScotti : MonoBehaviour
 {
     public GameObject gerryScotti;
     public GameObject sheldon;
+    public GameObject gerryScotti2;
+    public GameObject sheldon2;
 
-    public void GerryB()
+    void Start()
     {
-        gerryScotti.SetActive(false);
-        sheldon.SetActive(true);
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (PlayerPrefs.GetInt("isPassed1") == 1)
+        {
+            gerryScotti.SetActive(false);
+            sheldon.SetActive(true);
+            gerryScotti2.SetActive(true);
+        }
     }
 }
 

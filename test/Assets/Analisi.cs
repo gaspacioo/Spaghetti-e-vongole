@@ -18,18 +18,15 @@ public class Analisi : MonoBehaviour
     public GameObject milicchioObj;
     public GameObject laureaALert;
 
-    CalcoloMedia media = new CalcoloMedia();
+    public CalcoloMedia media = new CalcoloMedia();
+
     public void GerryB()
     {
-        gerry.SetActive(false);
-        sheldon.SetActive(true);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void SheldonB()
     {
-        milicchio.SetActive(true);
-        sheldon.SetActive(false);
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 

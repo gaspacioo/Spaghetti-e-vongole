@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Gerry Scotti Scene.unity
     guid: fef01aea6401643249800894d0fa0abd
+  - enabled: 1
+    path: Assets/Scenes/SheldonScene.unity
+    guid: 5ad2d864100254133810fcf633b59d32
   m_configObjects: {}
