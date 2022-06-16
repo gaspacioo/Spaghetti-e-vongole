@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "209902319442",
+    "project_id": "login-spaghetti-e-vongole",
+    "storage_bucket": "login-spaghetti-e-vongole.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:209902319442:android:46d943013269e12954ac8b",
+        "android_client_info": {
+          "package_name": "com.DefaultCompany.test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "209902319442-v2h29mrgmvrmbsk7s39775pt7du7lou4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgbP363xpe-EZY5OeA3z9HgFY1TAGZ118"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "209902319442-v2h29mrgmvrmbsk7s39775pt7du7lou4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "209902319442-5dcvon1d7dfcjmrbek90c80rpg7bln7t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.DefaultCompany.test"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
