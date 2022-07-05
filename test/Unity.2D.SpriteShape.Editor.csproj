@@ -299,11 +299,11 @@
  <Reference Include="unityplastic">
  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
  </Reference>
- <Reference Include="Unity.Plastic.Newtonsoft.Json">
- <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
- </Reference>
  <Reference Include="Firebase.Editor">
  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+ </Reference>
+ <Reference Include="Unity.Plastic.Newtonsoft.Json">
+ <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
  </Reference>
  <Reference Include="Google.VersionHandler">
  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/ExternalDependencyManager/Editor/Google.VersionHandler.dll</HintPath>

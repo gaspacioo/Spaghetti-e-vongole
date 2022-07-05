@@ -1,0 +1,768 @@
+Unity Editor version:    2020.3.20f1 (41c4e627c95f)
+Branch:                  2020.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.4 (Build 21F79)
+Darwin version:          21.5.0
+Architecture:            x86_64
+Running under Rosetta:   YES
+Available memory:        8192 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62641
+Successfully changed project path to: /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test
+/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 55.65 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets
+GfxDevice: creating device client; threaded=0
+2022-06-20 11:05:10.217 Unity[46557:1733237] (null) preferred device: Apple M1 (high power)
+2022-06-20 11:05:10.217 Unity[46557:1733237] Metal devices available: 1
+2022-06-20 11:05:10.217 Unity[46557:1733237] 0: Apple M1 (high power)
+2022-06-20 11:05:10.218 Unity[46557:1733237] Using device Apple M1 (high power)
+Initializing Metal device caps: Apple M1
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56557
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.004830 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 50.58 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.639 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1639ms)
+		BeginReloadAssembly (84ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (875ms)
+			LoadAssemblies (82ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (198ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (486ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (21ms)
+				ProcessInitializeOnLoadAttributes (302ms)
+				ProcessInitializeOnLoadMethodAttributes (102ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008111 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 47.60 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.389 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2392ms)
+		BeginReloadAssembly (240ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (30ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (2067ms)
+			LoadAssemblies (204ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (344ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (858ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (48ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (658ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (33ms)
+Platform modules already initialized, skipping
+Validating Project structure ... 0.021346 seconds.
+Shader import version has changed; will reimport all shaders...
+Upgrading shader files ...0.024602 seconds.
+Application.AssetDatabase Initial Script Refresh Start
+RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
+RefreshProfiler: Total: 0.000ms
+Application.AssetDatabase Initial Script Refresh End
+Application.AssetDatabase.Refresh Start
+Application.AssetDatabase.Refresh End
+RefreshInfo: StopAssetImportingV2(ForceSynchronousImport) scanfilter: 
+RefreshProfiler: Total: 0.000ms
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.20f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.02 seconds
+Initializing Unity extensions:
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/test.sln because it has changed
+[C# Project] First difference on line 4
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/test.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{E5C00A68-E6DB-FEA3-938C-F34D364EA738}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{DC068CE2-A1A4-566F-A155-C010D2F8914D}"
+[C# Project]   007: EndProject
+[C# Project]   008: Global
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/test.sln:
+[C# Project]   004: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.UI", "UnityEngine.UI.csproj", "{42CD5670-687D-3BCD-8F64-0243BE53A22A}"
+[C# Project]   005: EndProject
+[C# Project]   006: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.2D.PixelPerfect.Tests", "Unity.2D.PixelPerfect.Tests.csproj", "{6675FC57-62CD-93A9-2891-A7EF5AEDFBB9}"
+[C# Project]   007: EndProject
+[C# Project]   008: Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEngine.TestRunner", "UnityEngine.TestRunner.csproj", "{F8F44F2C-D76A-D0B3-826C-C0DD8A4BA337}"
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/UnityEngine.UI.csproj because it has changed
+[C# Project] First difference on line 367
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/UnityEngine.UI.csproj:
+[C# Project]   367:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   368:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Firebase.Editor">
+[C# Project]   371:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/UnityEngine.UI.csproj:
+[C# Project]   367:  <Reference Include="Firebase.Editor">
+[C# Project]   368:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   371:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Mathematics.csproj because it has changed
+[C# Project] First difference on line 367
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Mathematics.csproj:
+[C# Project]   367:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   368:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Firebase.Editor">
+[C# Project]   371:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Mathematics.csproj:
+[C# Project]   367:  <Reference Include="Firebase.Editor">
+[C# Project]   368:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   371:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Triangle.Runtime.csproj because it has changed
+[C# Project] First difference on line 367
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Triangle.Runtime.csproj:
+[C# Project]   367:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   368:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Firebase.Editor">
+[C# Project]   371:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Triangle.Runtime.csproj:
+[C# Project]   367:  <Reference Include="Firebase.Editor">
+[C# Project]   368:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   369:  </Reference>
+[C# Project]   370:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   371:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Timeline.csproj because it has changed
+[C# Project] First difference on line 352
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Timeline.csproj:
+[C# Project]   352:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   353:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   354:  </Reference>
+[C# Project]   355:  <Reference Include="Firebase.Editor">
+[C# Project]   356:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Timeline.csproj:
+[C# Project]   352:  <Reference Include="Firebase.Editor">
+[C# Project]   353:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   354:  </Reference>
+[C# Project]   355:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   356:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Cinemachine.csproj because it has changed
+[C# Project] First difference on line 359
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Cinemachine.csproj:
+[C# Project]   359:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   360:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   361:  </Reference>
+[C# Project]   362:  <Reference Include="Firebase.Editor">
+[C# Project]   363:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Cinemachine.csproj:
+[C# Project]   359:  <Reference Include="Firebase.Editor">
+[C# Project]   360:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   361:  </Reference>
+[C# Project]   362:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   363:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.TextMeshPro.csproj because it has changed
+[C# Project] First difference on line 341
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.TextMeshPro.csproj:
+[C# Project]   341:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   342:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project]   344:  <Reference Include="Firebase.Editor">
+[C# Project]   345:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.TextMeshPro.csproj:
+[C# Project]   341:  <Reference Include="Firebase.Editor">
+[C# Project]   342:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   343:  </Reference>
+[C# Project]   344:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   345:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Runtime.csproj because it has changed
+[C# Project] First difference on line 301
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Runtime.csproj:
+[C# Project]   301:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   302:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   303:  </Reference>
+[C# Project]   304:  <Reference Include="Firebase.Editor">
+[C# Project]   305:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Runtime.csproj:
+[C# Project]   301:  <Reference Include="Firebase.Editor">
+[C# Project]   302:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   303:  </Reference>
+[C# Project]   304:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   305:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assembly-CSharp.csproj because it has changed
+[C# Project] First difference on line 745
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assembly-CSharp.csproj:
+[C# Project]   745:  <Reference Include="Unity.2D.Animation.Editor">
+[C# Project]   746:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll</HintPath>
+[C# Project]   747:  </Reference>
+[C# Project]   748:  <Reference Include="Unity.InternalAPIEngineBridge.001">
+[C# Project]   749:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/ScriptAssemblies/Unity.InternalAPIEngineBridge.001.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assembly-CSharp.csproj:
+[C# Project]   745:   </ItemGroup>
+[C# Project]   746:   <ItemGroup>
+[C# Project]   747:     <ProjectReference Include="Unity.2D.Animation.Editor.csproj">
+[C# Project]   748:       <Project>{E240E025-B7E7-833C-0774-DC1C1BB8A31F}</Project>
+[C# Project]   749:       <Name>Unity.2D.Animation.Editor</Name>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.IK.Runtime.csproj because it has changed
+[C# Project] First difference on line 296
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.IK.Runtime.csproj:
+[C# Project]   296:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   297:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project]   299:  <Reference Include="Firebase.Editor">
+[C# Project]   300:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.IK.Runtime.csproj:
+[C# Project]   296:  <Reference Include="Firebase.Editor">
+[C# Project]   297:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project]   299:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   300:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.SpriteShape.Runtime.csproj because it has changed
+[C# Project] First difference on line 301
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.SpriteShape.Runtime.csproj:
+[C# Project]   301:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   302:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   303:  </Reference>
+[C# Project]   304:  <Reference Include="Firebase.Editor">
+[C# Project]   305:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.SpriteShape.Runtime.csproj:
+[C# Project]   301:  <Reference Include="Firebase.Editor">
+[C# Project]   302:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   303:  </Reference>
+[C# Project]   304:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   305:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.PixelPerfect.csproj because it has changed
+[C# Project] First difference on line 286
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.PixelPerfect.csproj:
+[C# Project]   286:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Firebase.Editor">
+[C# Project]   290:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.PixelPerfect.csproj:
+[C# Project]   286:  <Reference Include="Firebase.Editor">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   290:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Common.Runtime.csproj because it has changed
+[C# Project] First difference on line 283
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Common.Runtime.csproj:
+[C# Project]   283:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   284:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="Firebase.Editor">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Common.Runtime.csproj:
+[C# Project]   283:  <Reference Include="Firebase.Editor">
+[C# Project]   284:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   285:  </Reference>
+[C# Project]   286:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.InternalAPIEngineBridge.001.csproj because it has changed
+[C# Project] First difference on line 284
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.InternalAPIEngineBridge.001.csproj:
+[C# Project]   284:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   285:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Firebase.Editor">
+[C# Project]   288:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.InternalAPIEngineBridge.001.csproj:
+[C# Project]   284:  <Reference Include="Firebase.Editor">
+[C# Project]   285:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   286:  </Reference>
+[C# Project]   287:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   288:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/UnityEditor.UI.csproj because it has changed
+[C# Project] First difference on line 319
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/UnityEditor.UI.csproj:
+[C# Project]   319:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   320:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project]   322:  <Reference Include="Firebase.Editor">
+[C# Project]   323:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/UnityEditor.UI.csproj:
+[C# Project]   319:  <Reference Include="Firebase.Editor">
+[C# Project]   320:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   321:  </Reference>
+[C# Project]   322:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   323:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Timeline.Editor.csproj because it has changed
+[C# Project] First difference on line 541
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Timeline.Editor.csproj:
+[C# Project]   541:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   542:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   543:  </Reference>
+[C# Project]   544:  <Reference Include="Firebase.Editor">
+[C# Project]   545:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Timeline.Editor.csproj:
+[C# Project]   541:  <Reference Include="Firebase.Editor">
+[C# Project]   542:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   543:  </Reference>
+[C# Project]   544:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   545:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/com.unity.cinemachine.editor.csproj because it has changed
+[C# Project] First difference on line 351
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/com.unity.cinemachine.editor.csproj:
+[C# Project]   351:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   352:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   353:  </Reference>
+[C# Project]   354:  <Reference Include="Firebase.Editor">
+[C# Project]   355:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/com.unity.cinemachine.editor.csproj:
+[C# Project]   351:  <Reference Include="Firebase.Editor">
+[C# Project]   352:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   353:  </Reference>
+[C# Project]   354:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   355:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Psdimporter.Editor.csproj because it has changed
+[C# Project] First difference on line 296
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Psdimporter.Editor.csproj:
+[C# Project]   296:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   297:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project]   299:  <Reference Include="Firebase.Editor">
+[C# Project]   300:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Psdimporter.Editor.csproj:
+[C# Project]   296:  <Reference Include="Firebase.Editor">
+[C# Project]   297:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   298:  </Reference>
+[C# Project]   299:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   300:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Editor.csproj because it has changed
+[C# Project] First difference on line 472
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Editor.csproj:
+[C# Project]   472:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   473:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   474:  </Reference>
+[C# Project]   475:  <Reference Include="Firebase.Editor">
+[C# Project]   476:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Animation.Editor.csproj:
+[C# Project]   472:  <Reference Include="Firebase.Editor">
+[C# Project]   473:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   474:  </Reference>
+[C# Project]   475:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   476:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.TextMeshPro.Editor.csproj because it has changed
+[C# Project] First difference on line 330
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   330:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   331:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Firebase.Editor">
+[C# Project]   334:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.TextMeshPro.Editor.csproj:
+[C# Project]   330:  <Reference Include="Firebase.Editor">
+[C# Project]   331:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   334:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.SpriteShape.Editor.csproj because it has changed
+[C# Project] First difference on line 302
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.SpriteShape.Editor.csproj:
+[C# Project]   302:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   303:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   304:  </Reference>
+[C# Project]   305:  <Reference Include="Firebase.Editor">
+[C# Project]   306:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.SpriteShape.Editor.csproj:
+[C# Project]   302:  <Reference Include="Firebase.Editor">
+[C# Project]   303:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   304:  </Reference>
+[C# Project]   305:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   306:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.CollabProxy.Editor.csproj because it has changed
+[C# Project] First difference on line 411
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.CollabProxy.Editor.csproj:
+[C# Project]   411:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   412:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   413:  </Reference>
+[C# Project]   414:  <Reference Include="Firebase.Editor">
+[C# Project]   415:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.CollabProxy.Editor.csproj:
+[C# Project]   411:  <Reference Include="Firebase.Editor">
+[C# Project]   412:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   413:  </Reference>
+[C# Project]   414:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   415:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/PsdPlugin.csproj because it has changed
+[C# Project] First difference on line 328
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/PsdPlugin.csproj:
+[C# Project]   328:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   329:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   330:  </Reference>
+[C# Project]   331:  <Reference Include="Firebase.Editor">
+[C# Project]   332:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/PsdPlugin.csproj:
+[C# Project]   328:  <Reference Include="Firebase.Editor">
+[C# Project]   329:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   330:  </Reference>
+[C# Project]   331:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   332:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/DocCodeExamples.csproj because it has changed
+[C# Project] First difference on line 286
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/DocCodeExamples.csproj:
+[C# Project]   286:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Firebase.Editor">
+[C# Project]   290:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/DocCodeExamples.csproj:
+[C# Project]   286:  <Reference Include="Firebase.Editor">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   290:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Path.Editor.csproj because it has changed
+[C# Project] First difference on line 330
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Path.Editor.csproj:
+[C# Project]   330:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   331:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Firebase.Editor">
+[C# Project]   334:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Path.Editor.csproj:
+[C# Project]   330:  <Reference Include="Firebase.Editor">
+[C# Project]   331:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   332:  </Reference>
+[C# Project]   333:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   334:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.IK.Editor.csproj because it has changed
+[C# Project] First difference on line 290
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.IK.Editor.csproj:
+[C# Project]   290:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   291:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Firebase.Editor">
+[C# Project]   294:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.IK.Editor.csproj:
+[C# Project]   290:  <Reference Include="Firebase.Editor">
+[C# Project]   291:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   294:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assembly-CSharp-Editor.csproj because it has changed
+[C# Project] First difference on line 685
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assembly-CSharp-Editor.csproj:
+[C# Project]   685:  <Reference Include="UnityEngine.TestRunner">
+[C# Project]   686:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>
+[C# Project]   687:  </Reference>
+[C# Project]   688:  <Reference Include="UnityEditor.TestRunner">
+[C# Project]   689:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/ScriptAssemblies/UnityEditor.TestRunner.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assembly-CSharp-Editor.csproj:
+[C# Project]   685:   </ItemGroup>
+[C# Project]   686:   <ItemGroup>
+[C# Project]   687:     <ProjectReference Include="Assembly-CSharp.csproj">
+[C# Project]   688:       <Project>{E5C00A68-E6DB-FEA3-938C-F34D364EA738}</Project>
+[C# Project]   689:       <Name>Assembly-CSharp</Name>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Sprite.Editor.csproj because it has changed
+[C# Project] First difference on line 318
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   318:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   319:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   320:  </Reference>
+[C# Project]   321:  <Reference Include="Firebase.Editor">
+[C# Project]   322:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Sprite.Editor.csproj:
+[C# Project]   318:  <Reference Include="Firebase.Editor">
+[C# Project]   319:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   320:  </Reference>
+[C# Project]   321:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   322:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Tilemap.Editor.csproj because it has changed
+[C# Project] First difference on line 321
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   321:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   322:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="Firebase.Editor">
+[C# Project]   325:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Tilemap.Editor.csproj:
+[C# Project]   321:  <Reference Include="Firebase.Editor">
+[C# Project]   322:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   323:  </Reference>
+[C# Project]   324:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   325:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.PixelPerfect.Editor.csproj because it has changed
+[C# Project] First difference on line 285
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.PixelPerfect.Editor.csproj:
+[C# Project]   285:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Firebase.Editor">
+[C# Project]   289:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.PixelPerfect.Editor.csproj:
+[C# Project]   285:  <Reference Include="Firebase.Editor">
+[C# Project]   286:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.VSCode.Editor.csproj because it has changed
+[C# Project] First difference on line 290
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.VSCode.Editor.csproj:
+[C# Project]   290:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   291:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Firebase.Editor">
+[C# Project]   294:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.VSCode.Editor.csproj:
+[C# Project]   290:  <Reference Include="Firebase.Editor">
+[C# Project]   291:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   292:  </Reference>
+[C# Project]   293:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   294:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Common.Editor.csproj because it has changed
+[C# Project] First difference on line 288
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Common.Editor.csproj:
+[C# Project]   288:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   290:  </Reference>
+[C# Project]   291:  <Reference Include="Firebase.Editor">
+[C# Project]   292:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.2D.Common.Editor.csproj:
+[C# Project]   288:  <Reference Include="Firebase.Editor">
+[C# Project]   289:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   290:  </Reference>
+[C# Project]   291:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   292:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Mathematics.Editor.csproj because it has changed
+[C# Project] First difference on line 286
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Mathematics.Editor.csproj:
+[C# Project]   286:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Firebase.Editor">
+[C# Project]   290:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.Mathematics.Editor.csproj:
+[C# Project]   286:  <Reference Include="Firebase.Editor">
+[C# Project]   287:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   288:  </Reference>
+[C# Project]   289:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   290:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project] Writing /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.InternalAPIEditorBridge.001.csproj because it has changed
+[C# Project] First difference on line 285
+
+[C# Project] Current /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.InternalAPIEditorBridge.001.csproj:
+[C# Project]   285:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   286:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Firebase.Editor">
+[C# Project]   289:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+
+[C# Project] New /Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Unity.InternalAPIEditorBridge.001.csproj:
+[C# Project]   285:  <Reference Include="Firebase.Editor">
+[C# Project]   286:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Assets/Firebase/Editor/Firebase.Editor.dll</HintPath>
+[C# Project]   287:  </Reference>
+[C# Project]   288:  <Reference Include="Unity.Plastic.Newtonsoft.Json">
+[C# Project]   289:  <HintPath>/Users/gaspare/Documents/GitHub/Spaghetti-e-vongole/test/Library/PackageCache/com.unity.collab-proxy@1.11.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
+2022-06-20 11:05:16.183 Unity[46557:1733237] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001cf79c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-06-20 11:05:16.187 Unity[46557:1733237] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001cd9810 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+========================================================================
+Worker process is ready to serve import requests
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2353 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 213.1 MB.
+System memory in use after: 212.3 MB.
+
+Unloading 217 unused Assets to reduce memory usage. Loaded Objects now: 2822.
+Total: 2.883292 ms (FindLiveObjects: 0.149583 ms CreateObjectMapping: 0.057459 ms MarkObjects: 2.247250 ms  DeleteObjects: 0.428292 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Assets2/Scenes/SampleScene.unity
+  artifactKey: Guid(d3c095d7e7b30644c925998a0b5842a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Assets2/Scenes/SampleScene.unity using Guid(d3c095d7e7b30644c925998a0b5842a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30aa403e4a4e75eeb50910fa5c6d1ca') in 0.017583 seconds 
+  Import took 0.021141 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007853 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Symbol file LoadedFromMemory is not a mono symbol file
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-06-20 11:07:04.676 Unity[46557:1733237] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600001ce44d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  2.321 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2322ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (33ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (67ms)
+		EndReloadAssembly (2042ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (331ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (1195ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (12ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (157ms)
+				ProcessInitializeOnLoadAttributes (1000ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (41ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2313 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 206.4 MB.
+System memory in use after: 206.6 MB.
+
+Unloading 41 unused Assets to reduce memory usage. Loaded Objects now: 2826.
+Total: 2.289292 ms (FindLiveObjects: 0.123458 ms CreateObjectMapping: 0.044875 ms MarkObjects: 2.098333 ms  DeleteObjects: 0.021917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
