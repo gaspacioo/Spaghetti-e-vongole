@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SheldonScene.unity
     guid: 5ad2d864100254133810fcf633b59d32
+  - enabled: 1
+    path: Assets/Scenes/Laurea.unity
+    guid: 39c0813f1334d0648abb0253ab1dd30d
   m_configObjects: {}

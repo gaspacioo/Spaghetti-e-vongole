@@ -18,7 +18,6 @@ public class Analisi : MonoBehaviour
     public GameObject milicchioObj;
     public GameObject laureaALert;
 
-    public CalcoloMedia media = new CalcoloMedia();
 
     public void GerryB()
     {
@@ -30,21 +29,13 @@ public class Analisi : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
     }
 
-    public void MilicchioB()
-    {
-        milicchiotext.SetActive(true);
-        milicchioObj.SetActive(true);
-        
-
-
-    }
+   
 
     public void Chiudi()
     {
         if (fine == true)
         {
             milicchiotext.SetActive(false);
-            media.setValore(30, 3);
             milicchio.SetActive(false);
 
             gerry2.SetActive(true);
@@ -67,6 +58,6 @@ public class Analisi : MonoBehaviour
 
     public void Fine()
     {
-        //cambio di scena
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 3);
     }
 }

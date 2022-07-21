@@ -14,29 +14,259 @@ public class SheldonScript : MonoBehaviour
     private int punteggio = 0;
     public GameObject sbagliato;
     public Text avversario;
+    private int isPassed2 = 0;
 
 
     public void sasso()
     {
-        string a = "Sasso";
+        string a = "Spock";
+        string b = "Lizard";
+        string c = "Carta";
+        string d = "Sasso";
+        string e = "Forbici";
 
-        int i = Random.Range(0, v.Length);
-
-        if (a.Equals(v[i]))
+        if (a.Equals(v[Random.Range(0, v.Length)]))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                  
+                    finito();
+                    
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                Debug.Log("Spock vaporizza il sasso");
+                avversario.text = "Spock vaporizza il sasso";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (b.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                  
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                punteggio++;
+                Debug.Log("Sasso uccide lizard");
+                avversario.text = "Il sasso uccide lizard";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (c.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                   
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                Debug.Log("la carta avvolge il sasso");
+                avversario.text = "La carta avvolge il sasso";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (d.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                   
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                Debug.Log("same");
+                avversario.text = "Sasso vs sasso";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (e.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                  
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                punteggio++;
+                Debug.Log("sasso rompe le forbici");
+                avversario.text = "Il sasso rompe le forbici";
+                testo.text = punteggio.ToString();
+            }
         }
     }
 
     public void carta()
     {
-        string a = "Carta";
+        string a = "Spock";
+        string b = "Lizard";
+        string c = "Carta";
+        string d = "Sasso";
+        string e = "Forbici";
 
-        int i = Random.Range(0, v.Length);
-
-        if (a.Equals(v[i]))
+        if (a.Equals(v[Random.Range(0, v.Length)]))
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                  
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                punteggio++;
+                Debug.Log("La carta invalida Spock");
+                avversario.text = "La carta invalida Spock";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (b.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                    
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                Debug.Log("Lizard mangia la carta");
+                avversario.text = "Lizard mangia la carta";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (c.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+               
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                Debug.Log("same");
+                avversario.text = "Carta vs carta";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (d.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                 
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                punteggio++;
+                Debug.Log("La carta avvolge il sasso");
+                avversario.text = "La carta avvolge il sasso";
+                testo.text = punteggio.ToString();
+            }
+        }
+
+        if (e.Equals(v[Random.Range(0, v.Length)]))
+        {
+            if (conteggio > 3)
+            {
+                if (punteggio >= 2)
+                {
+                  
+                    finito();
+                }
+                else
+                {
+                    sbagliato.SetActive(true);
+                }
+            }
+            else
+            {
+                conteggio++;
+                Debug.Log("Le forbici tagliano la carta");
+                avversario.text = "Le forbici tagliano la carta";
+                testo.text = punteggio.ToString();
+            }
         }
     }
 
@@ -52,8 +282,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                    
                     finito();
                 }
                 else
@@ -64,8 +295,9 @@ public class SheldonScript : MonoBehaviour
             else
             {
                 conteggio++;
+
                 Debug.Log("Spock rompe le forbici");
-                avversario.text = "Spock";
+                avversario.text = "Spock rompe le forbici";
                 testo.text = punteggio.ToString();
             }
         }
@@ -74,8 +306,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -88,7 +321,7 @@ public class SheldonScript : MonoBehaviour
                 conteggio++;
                 punteggio++;
                 Debug.Log("Le forbici decapitano Lizard");
-                avversario.text = "Lizard";
+                avversario.text = "Le forbici decapitano Lizard";
                 testo.text = punteggio.ToString();
 
             }
@@ -98,8 +331,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -112,7 +346,7 @@ public class SheldonScript : MonoBehaviour
                 conteggio++;
                 punteggio++;
                 Debug.Log("Le forbici tagliano la carta");
-                avversario.text = "Carta";
+                avversario.text = "Le forbici tagliano la carta";
                 testo.text = punteggio.ToString();
 
             }
@@ -122,8 +356,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -135,7 +370,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Il sasso rompe le forbici");
-                avversario.text = "Sasso";
+                avversario.text = "Il sasso rompe le forbici";
                 testo.text = punteggio.ToString();
             }
         }
@@ -144,8 +379,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -157,7 +393,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Same");
-                avversario.text = "Forbici";
+                avversario.text = "Forbici vs forbici";
                 testo.text = punteggio.ToString();
             }
         }
@@ -176,8 +412,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -190,7 +427,7 @@ public class SheldonScript : MonoBehaviour
                 conteggio++;
                 punteggio++;
                 Debug.Log("Lizard avvelena Spock");
-                avversario.text = "Spock";
+                avversario.text = "Lizard avvelena Spock";
                 testo.text = punteggio.ToString();
 
             }
@@ -200,8 +437,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                    
                     finito();
                 }
                 else
@@ -213,7 +451,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Same");
-                avversario.text = "Lizard";
+                avversario.text = "Lizard vs lizard";
                 testo.text = punteggio.ToString();
             }
         }
@@ -222,8 +460,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                    
                     finito();
                 }
                 else
@@ -236,7 +475,7 @@ public class SheldonScript : MonoBehaviour
                 conteggio++;
                 punteggio++;
                 Debug.Log("Lizard mangia la carta");
-                avversario.text = "Carta";
+                avversario.text = "Lizard mangia la carta";
                 testo.text = punteggio.ToString();
 
             }
@@ -246,8 +485,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                    
                     finito();
                 }
                 else
@@ -259,7 +499,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Il sasso uccide Lizard");
-                avversario.text = "Sasso";
+                avversario.text = "Il sasso uccide Lizard";
                 testo.text = punteggio.ToString();
             }
         }
@@ -268,8 +508,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -281,7 +522,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Le forbici decapitano Lizard");
-                avversario.text = "Forbici";
+                avversario.text = "Le forbici decapitano Lizard";
                 testo.text = punteggio.ToString();
             }
         }
@@ -301,8 +542,9 @@ public class SheldonScript : MonoBehaviour
             
             if(conteggio>3)
             {
-                if(punteggio >= 3)
+                if(punteggio >= 2)
                 {
+                    
                     finito();
                 }
                 else
@@ -314,7 +556,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Same");
-                avversario.text = "Spock";
+                avversario.text = "Spock vs spock";
                 testo.text = punteggio.ToString();
             }
         }
@@ -323,8 +565,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -336,7 +579,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("Lizard avvelena Spock");
-                avversario.text = "Lizard";
+                avversario.text = "Lizard avvelena Spock";
                 testo.text = punteggio.ToString();
 
             }
@@ -346,8 +589,9 @@ public class SheldonScript : MonoBehaviour
         {
             if (conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -359,7 +603,7 @@ public class SheldonScript : MonoBehaviour
             {
                 conteggio++;
                 Debug.Log("La carta invalida Spock");
-                avversario.text = "Carta";
+                avversario.text = "La carta invalida Spock";
                 testo.text = punteggio.ToString();
 
             }
@@ -369,8 +613,9 @@ public class SheldonScript : MonoBehaviour
         {
             if(conteggio > 3)
             {
-                if (punteggio >= 3)
+                if (punteggio >= 2)
                 {
+                   
                     finito();
                 }
                 else
@@ -383,7 +628,7 @@ public class SheldonScript : MonoBehaviour
                 conteggio++;
                 punteggio++;
                 Debug.Log("Spock vaporizza il sasso");
-                avversario.text = "Sasso";
+                avversario.text = "Spock vaporizza il sasso";
                 testo.text = punteggio.ToString();
                 
             }
@@ -393,8 +638,9 @@ public class SheldonScript : MonoBehaviour
         {
             if(conteggio > 3)
             {
-                if(punteggio >= 3)
+                if(punteggio >= 2)
                 {
+                    isPassed2 = 1;
                     finito();
                 }
                 else
@@ -407,7 +653,7 @@ public class SheldonScript : MonoBehaviour
                 conteggio++;
                 punteggio++;
                 Debug.Log("Spock rompe le forbici");
-                avversario.text = "Forbici";
+                avversario.text = "Spock rompe le forbici";
                 testo.text = punteggio.ToString();
                 
             }
@@ -415,7 +661,11 @@ public class SheldonScript : MonoBehaviour
     }
     public void finito()
     {
+        isPassed2 = 1;
+       
+       
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
+        
     }
 
     public void hoSbagliato()
@@ -426,5 +676,17 @@ public class SheldonScript : MonoBehaviour
         testo.text = punteggio.ToString();
         avversario.text = "";
     }
+
+    void Start()
+    {
+        
+        isPassed2 = PlayerPrefs.GetInt("isPassed2");
+
+    }
+    void Update()
+    {
+        PlayerPrefs.SetInt("isPassed2", isPassed2);
+    }
+           
 }
 

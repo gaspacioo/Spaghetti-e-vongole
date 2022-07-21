@@ -10,6 +10,7 @@ public class Bottoni : MonoBehaviour
     // Vettore delle domande
     public GameObject[] vettore = new GameObject[15];
     private int isPassed1 = 0;
+   
     private float CFU1 = 0;
 
     CalcoloMedia media = new CalcoloMedia();
